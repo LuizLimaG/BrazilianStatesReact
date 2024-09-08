@@ -8,7 +8,7 @@ function App() {
   const [currentRegionIndex, setCurrentRegionIndex] = useState(0);
 
   useEffect(() => {
-    const url = 'https://raw.githubusercontent.com/LuizLimaG/APIFrame/main/app.json';
+    const url = 'https://raw.githubusercontent.com/LuizLimaG/ApiBrazilianStates/main/app.json';
     fetch(url)
       .then((response) => response.json())
       .then((result) => {
